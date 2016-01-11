@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Modal Test</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <button onclick="showModal();return false;">Click</button>
@@ -77,10 +78,13 @@
     initial Sets this property to its default value. Read about initial Play it
     » inherit Inherits this property from its parent element. Read about
     inherit Examples More Examples</p>
-    <div id="id1"><a href="#" onclick=
-    "hideModal();return false;"><span>&times;</span></a>
-    <hr/>
-    <img height="140" src="CODGhosts.jpg" width="100"></div>
+    
+    <div id="id1">
+    	<a href="#" onclick="hideModal();return false;"><span>&times;</span></a>
+		<hr/>
+		<img src="CODGhosts.jpg"/>
+    </div>
+    
     <div id="id2"></div>
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
