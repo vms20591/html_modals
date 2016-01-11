@@ -1,0 +1,53 @@
+div#id1 {
+    display: none;
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    z-index: 9999;
+    margin-left: -300px;
+    border: 4px solid #FFF;
+    background-color: #FFF;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+}
+
+div#id2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    opacity: .8;
+}
+
+a {
+    text-decoration: none;
+    float: right;
+}
+
+a:link,a:visited {
+    color: #000;
+    font-weight: 700;
+}
+
+a:hover,a:active {
+    color: #000;
+    font-weight: 700;
+}
+
+span {
+    transition: text-shadow 100ms linear;
+}
+
+span:hover {
+    text-shadow: 0 1px 2px #555;
+}
+
+hr {
+    visibility: hidden;
+    clear: both;
+}
